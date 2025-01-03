@@ -1,9 +1,11 @@
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['di-uploads-development.dealerinspire.com'], // Add the domain here
+    domains: [
+      'di-uploads-development.dealerinspire.com',
+      'encrypted-tbn0.gstatic.com',
+    ], // Add all required domains here
   },
 };
 
